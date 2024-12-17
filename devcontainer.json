@@ -1,0 +1,9 @@
+{
+    "name": "Node.js & Playwright",
+    "image": "mcr.microsoft.com/devcontainers/javascript-node:latest",
+    "postCreateCommand": "npm install && npx playwright install-deps && npx playwright install",
+    "features": {
+      "node": "latest"
+    }
+  }
+  
